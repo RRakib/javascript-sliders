@@ -1,0 +1,14 @@
+{
+  "name": "sliders",
+  "version": "1.0.0",
+  "description": "Practicing sliders with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Sliders"
+  ],
+  "author": "Rakib Uddin",
+  "license": "MIT"
+}
