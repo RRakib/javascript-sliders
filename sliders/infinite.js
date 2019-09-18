@@ -1,4 +1,4 @@
-import {cards} from './utility.js'
+import {cards} from "../utilities/utility.js"
 let cardsCopy = cards
 let app = document.querySelector('#app')
 app.innerHTML = `<img src='${cardsCopy[0].src}' />
