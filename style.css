@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+.displayText{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 45px;
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+}
