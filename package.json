@@ -4,11 +4,15 @@
   "description": "Practicing sliders with javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "sass": "node-sass Tabslider/sass/style.scss Tabslider/css/style.css -w"
   },
   "keywords": [
     "Sliders"
   ],
   "author": "Rakib Uddin",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0",
+    "node-sass": "^4.12.0"
+  }
 }
