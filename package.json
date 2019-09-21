@@ -4,7 +4,7 @@
   "description": "Practicing sliders with javascript",
   "main": "index.js",
   "scripts": {
-   "sass": "node-sass Tabslider/sass/style.scss Tabslider/css/style.css -w"
+   "sass": "node-sass ImageGalarry/sass/style.scss ImageGalarry/css/style.css -w"
   },
   "keywords": [
     "Sliders"
