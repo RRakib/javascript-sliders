@@ -22,7 +22,7 @@ img {
   width: 65%;
   height: 85%;
   overflow: hidden;
-  box-shadow: 0 0 15px black; }
+  box-shadow: 0 0 18px black; }
 
 .ui-big-images {
   position: absolute;
@@ -33,7 +33,10 @@ img {
   .ui-big-images > .ui-big-image {
     width: 100%;
     height: 100%;
+    transform: translateX(-101%);
     margin-right: -100%; }
+    .ui-big-images > .ui-big-image[data-active] {
+      transform: translateX(0); }
 
 .ui-thumbnails {
   position: absolute;
@@ -42,7 +45,7 @@ img {
   bottom: 0;
   left: 0;
   background: #e8e8e885;
-  padding: 1.5rem;
+  padding: 2vmin;
   display: flex;
   justify-content: flex-start;
   align-items: center;
