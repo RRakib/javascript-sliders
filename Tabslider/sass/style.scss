@@ -72,9 +72,10 @@ body{
 
 [data-page='1']{background: #76B471}
 [data-page='2']{background: #BEC9D6}
-[data-page='3']{background: #586B7D}
+[data-page='3']{background: #f7eed1}
 
-[data-page]{opacity: 0; visibility: hidden}
+[data-page]{opacity: 0; transform: translateX(-100%)}
+[data-page='1']{opacity: 1; visibility: visible}
 
 input[name='choice']{
     visibility: hidden;
@@ -83,19 +84,15 @@ input[name='choice']{
 
 #nav-1:checked ~ *{
     label[for="nav-1"]{
-        font-weight: bold; background-color: #ddd;
-    }
-    [data-page='1']{opacity: 1; visibility: visible}
-}
+        font-weight: bold; background-color: #76B471;}}
 #nav-2:checked ~ *{
     label[for="nav-2"]{
-        font-weight: bold; background-color: #ddd;
-    }
-    [data-page='2']{opacity: 1; visibility: visible}
-}
+        font-weight: bold; background-color: #bec9d6;}}
 #nav-3:checked ~ *{
     label[for="nav-3"]{
-        font-weight: bold; background-color: #ddd;
-    }
-    [data-page='3']{opacity: 1; visibility: visible}
+        font-weight: bold; background-color: #e6d69b;}}
+#nav-1:checked ~ * [data-page='1'],
+#nav-2:checked ~ * [data-page='2'],
+#nav-3:checked ~ * [data-page='3']{
+    opacity: 1; transform: translateX(0)
 }
