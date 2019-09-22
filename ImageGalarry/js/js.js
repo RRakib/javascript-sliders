@@ -27,6 +27,12 @@ const displaySlide = (index) => {
 elThumbnail.forEach(el => el.addEventListener('click', () => {
     displaySlide(el.dataset.key)
 }))
+elThumbnail.forEach(el => el.addEventListener('mousedown', () => {
+    el.style.transform = 'scale(.95)'
+}))
+elThumbnail.forEach(el => el.addEventListener('mouseup', () => {
+    el.style.transform = 'scale(1)'
+}))
 
 next.addEventListener('click', () => {
     displaySlide('NEXT')
